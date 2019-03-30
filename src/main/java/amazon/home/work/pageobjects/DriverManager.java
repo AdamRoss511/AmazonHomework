@@ -12,9 +12,6 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 
 import static org.openqa.selenium.ie.InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS;
 
-/**
- * Created by Roman_Iovlev on 1/22/2018.
- */
 public class DriverManager {
     public static WebDriver getDriver() { return getDriver(BrowserTypes.CHROME); }
     public static WebDriver getDriver(BrowserTypes driverType) {
